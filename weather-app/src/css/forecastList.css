@@ -1,0 +1,45 @@
+/*.forecast-container {
+    display: flex;
+    flex-direction: row;
+    gap: 7%;
+    margin-top: 5%;
+    justify-content: center;
+}*/
+
+.forecast-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 0.8rem 1rem;
+    margin-top: 1rem;
+    background-color: #FFFF;
+}
+
+.forecast-card {
+    flex: 1 1 120px;
+    min-width: 100px;
+    padding: 1rem;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+
+.date {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 0.5rem;
+}
+
+.forecast-weather-icon {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 0.5rem;
+}
+
+.forecast-temp {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000;
+}
